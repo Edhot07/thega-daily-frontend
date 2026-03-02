@@ -6,9 +6,11 @@ import { ShowModal } from "./ShowModal";
 
 export const LogOut = () => {
   const [isOpen, setIsopen] = useState(false);
+  const [isLoggingOut, setIsLoggingOut] = useState(false);
   const navigate = useNavigate();
 
   const handleLogout = async () => {
+    setIsLoggingOut(true);
     try {
       await api.post("/admin/logout");
       localStorage.removeItem("user");
@@ -17,6 +19,8 @@ export const LogOut = () => {
       navigate("/admin/login");
     } catch (error) {
       console.log(error.response?.data?.message || "Server not responding");
+    } finally {
+      setIsLoggingOut(false);
     }
   };
 
@@ -35,7 +39,7 @@ export const LogOut = () => {
         onConfirm={handleLogout}
         title="Confirm Logout"
         message="Are you sure you want to log out of the admin panel?"
-        confirmText="Logout"
+        confirmText={isLoggingOut ? "Logging Out..." : "Logout"}
         type="danger"
       />
     </>

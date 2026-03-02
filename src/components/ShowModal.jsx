@@ -32,8 +32,9 @@ export const ShowModal = ({
               Cancel
             </button>
             <button
+              disabled={confirmText === "Logging Out..."}
               onClick={onConfirm}
-              className={`px-4 py-2 text-sm font-medium text-white rounded-lg transition-colors ${buttonColor}`}
+              className={`${confirmText === "Logging Out..." ? "bg-gray-400" : `${buttonColor}`} px-4 py-2 text-sm font-medium text-white rounded-lg transition-colors `}
             >
               {confirmText}
             </button>
