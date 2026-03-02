@@ -1,4 +1,5 @@
 import { useState } from "react";
+import thegadaily from "../assets/thegadaily.png";
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -11,11 +12,7 @@ export const Navbar = () => {
       <div className="relative max-w-7xl flex items-center justify-between mx-auto px-4 py-3">
         {/* Logo */}
         <a href="#home" className="flex items-center gap-2">
-          <img
-            src="../../public/thegadaily.png"
-            className="size-12 rounded-full"
-            alt="Logo"
-          />
+          <img src={thegadaily} className="size-12 rounded-full" alt="Logo" />
           <span className="text-xl font-semibold">Thega Daily</span>
         </a>
 

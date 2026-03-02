@@ -174,11 +174,11 @@ export const AdminDashboard = () => {
         className="max-w-xl w-full mx-auto bg-white/10 backdrop-blur-lg border 
       border-white/20 rounded-xl p-4 flex-1 overflow-hidden pb-14"
       >
-        <h2 className="mb-3 font-semibold">Services ({services.length})</h2>
+        <h2 className="mb-3 font-semibold">Services ({services?.length})</h2>
 
         {/* Scrollable list */}
         <div className="h-full overflow-y-auto pr-1 flex flex-col gap-2">
-          {services.length === 0 && (
+          {services?.length === 0 && (
             <p className="text-slate-300">No services added yet</p>
           )}
 
