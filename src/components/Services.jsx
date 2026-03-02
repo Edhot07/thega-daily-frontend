@@ -84,7 +84,7 @@ export const Services = () => {
                             gap-6
                             "
       >
-        {services.map((service, index) => (
+        {services?.map((service, index) => (
           <div
             key={service._id}
             className="
