@@ -56,7 +56,7 @@ export const Services = () => {
       </motion.div>
 
       {/* No services */}
-      {services.length === 0 && (
+      {services?.length === 0 && (
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
