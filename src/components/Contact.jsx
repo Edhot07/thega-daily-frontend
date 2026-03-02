@@ -125,12 +125,12 @@ export const Contact = () => {
         <div>
           <h3 className="text-lg font-semibold mb-3">Follow Me</h3>
 
-          <div className="flex gap-4">
+          <div className="flex gap-2 text-sm text-gray-400">
             <a
               href="https://facebook.com/yourprofile"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-sm font-medium hover:bg-blue-600 transition"
+              className="bg-white/10 border border-white/20 rounded-lg md:p-2 p-4 text-sm font-medium hover:bg-blue-600 transition"
             >
               <Facebook />
             </a>
@@ -139,7 +139,7 @@ export const Contact = () => {
               href="https://twitter.com/yourprofile"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-sm font-medium hover:bg-blue-400 transition"
+              className="bg-white/10 border border-white/20 rounded-lg md:p-2 p-4 text-sm font-medium hover:bg-blue-400 transition"
             >
               <Twitter />
             </a>
@@ -148,7 +148,7 @@ export const Contact = () => {
               href="https://instagram.com/yourprofile"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-sm font-medium hover:bg-pink-500 transition"
+              className="bg-white/10 border border-white/20 rounded-lg md:p-2 p-4 text-sm font-medium hover:bg-pink-500 transition"
             >
               <Instagram />
             </a>
@@ -157,7 +157,7 @@ export const Contact = () => {
               href="https://linkedin.com/in/yourprofile"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-sm font-medium hover:bg-blue-700 transition"
+              className="bg-white/10 border border-white/20 rounded-lg md:p-2 p-4 text-sm font-medium hover:bg-blue-700 transition"
             >
               <Linkedin />
             </a>
