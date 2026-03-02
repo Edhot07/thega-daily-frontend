@@ -33,7 +33,7 @@ export const Contact = () => {
           </p>
 
           <div className="mt-4 text-sm text-gray-400">
-            <p>Email: contact@yourbrand.com</p>
+            <p>Email: thegadaily1997@gmail.com</p>
             <p>Phone: +91 8414906818</p>
           </div>
         </div>
