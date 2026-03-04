@@ -27,12 +27,12 @@ export const Contact = () => {
         <div>
           <h3 className="text-lg font-semibold mb-3">Thega Daily</h3>
 
-          <p className="text-gray-400 text-sm">
+          <p className="text-gray-300 text-sm">
             Building modern digital solutions to help businesses grow, innovate,
             and succeed in the digital world.
           </p>
 
-          <div className="mt-4 text-sm text-gray-400">
+          <div className="mt-4 text-sm text-gray-300">
             <p>Email: thegadaily1997@gmail.com</p>
             <p>Phone: +91 8414906818</p>
           </div>
@@ -42,7 +42,7 @@ export const Contact = () => {
         <div>
           <h3 className="text-lg font-semibold mb-3">Quick Links</h3>
 
-          <div className="flex flex-col gap-2 text-sm text-gray-400">
+          <div className="flex flex-col gap-2 text-sm text-gray-300">
             <a href="#home" className="hover:text-white transition">
               Home
             </a>
@@ -125,7 +125,7 @@ export const Contact = () => {
         <div>
           <h3 className="text-lg font-semibold mb-3">Follow Me</h3>
 
-          <div className="flex gap-2 text-sm text-gray-400">
+          <div className="flex gap-2 text-sm text-gray-300">
             <a
               href="https://facebook.com/yourprofile"
               target="_blank"
@@ -173,7 +173,7 @@ export const Contact = () => {
             border-t border-white/10
             text-center
             text-xs
-            text-gray-500
+            text-gray-300
             "
       >
         © 2026 Thega Daily. All rights reserved.
